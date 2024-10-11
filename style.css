@@ -1,0 +1,130 @@
+
+
+nav{
+    width: 80%;
+    margin: auto;
+    background-color:ghostwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px; 
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}
+a:visited{
+    color: black;
+}
+  
+#container {
+width: 80%;
+display: flex;
+margin: auto;
+justify-content: space-between;
+align-items: center;
+
+}
+#text {
+
+}
+
+h3{
+    font-size: 32px;
+    margin: 0;
+}
+
+h1{
+    font-size: 54px;
+    margin: 0;
+}
+
+#spideyy{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+#hobby{
+    width: 80%;
+    margin: 100px auto;
+}
+
+#hobby-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box{
+    width: 25%;
+    border: 1px solid black;
+    background-color: rgb(241, 241, 241);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    width: 270px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0, 3s, box-shadow 0 3s;
+    text-align: center;
+    
+}
+
+.box:hover{
+transform: translateY(-10px);
+box-shadow: 0 8px 16px lightblue;
+}
+h5{
+    font-size: 24px;
+    padding: 0px;
+    margin: opx;
+}
+
+
+    
+@media only screen and (max-width: 600px){
+    #container {
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+#container h3{
+    font-size: 28px;
+}
+
+#container h1{
+    font-size: 36px;
+}
+
+    #container{
+        width: 500px;
+        height: 500px;
+    }
+
+    #hobby-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+}
+
+
+
+    
+
+
